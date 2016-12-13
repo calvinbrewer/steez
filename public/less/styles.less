@@ -1,0 +1,61 @@
+@light: #f8f9fa;
+@dark: #495057;
+@blue: #1c7cd6;
+@dark-blue: #1862ab;
+
+body {
+  background: @light !important;
+  color: @dark !important;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+h1, h2 {
+  font-weight: 300 !important;
+}
+
+.btn-primary {
+  background: @blue !important;
+  border: 1px solid @blue !important;
+
+  &:hover {
+    background: @dark-blue !important;
+    border: 1px solid @dark-blue !important;
+  }
+}
+
+.main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  background: url(../img/bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #FFF;
+}
+
+.content {
+  padding-bottom: 2rem;
+}
+
+.post {
+  padding-top: 2rem;
+  iframe {
+    width: 100% !important;
+  }
+
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      color: @blue;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}

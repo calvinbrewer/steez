@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Steez</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="/img/favicon.png" type="image/png" rel="icon">
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+  <link href="/css/styles.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous" rel="stylesheet">
+</head>
+<body>
+  <div class="container-fluid main">
+    <h1>Steez</h1>
+    <p>The most steeziest videos you can imagine.</p>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addPost">Post some steez</button>
+  </div>
+
+  {{{body}}}
+
+
+  <!-- Add post -->
+  <div class="modal fade" id="addPost" tabindex="-1" role="dialog" aria-labelledby="addPostLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="addPostLabel">Add some steez</h4>
+        </div>
+        <div class="modal-body">
+          <ol>
+            <li>On Vimeo or YouTube click "Share" -> "Embed" and copy the link.</li>
+            <li>Paste the link in the "Video link" input below.</li>
+            <li>Add some tags</li>
+            <li>Share the steez</li>
+          </ol>
+          <form id="addSteez">
+            <div class="form-group">
+              <label for="video">Video link</label>
+              <input class="form-control" id="video" aria-describedby="videoLink" placeholder="Enter video embed link...">
+            </div>
+            <div class="form-group">
+              <label for="tags">Tags (comma seperated)</label>
+              <input class="form-control" id="tags" aria-describedby="tags" placeholder="Comma seperated tags...">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Post</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

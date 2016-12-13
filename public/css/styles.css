@@ -1,0 +1,48 @@
+body {
+  background: #f8f9fa !important;
+  color: #495057 !important;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+h1,
+h2 {
+  font-weight: 300 !important;
+}
+.btn-primary {
+  background: #1c7cd6 !important;
+  border: 1px solid #1c7cd6 !important;
+}
+.btn-primary:hover {
+  background: #1862ab !important;
+  border: 1px solid #1862ab !important;
+}
+.main {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  background: url(../img/bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #FFF;
+}
+.content {
+  padding-bottom: 2rem;
+}
+.post {
+  padding-top: 2rem;
+}
+.post iframe {
+  width: 100% !important;
+}
+.post button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.post button:hover {
+  color: #1c7cd6;
+}
+.post button:focus {
+  outline: 0;
+}
