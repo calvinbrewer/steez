@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="158px" height="158px" viewBox="0 0 158 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="24.5614035 0 87.4385965 0 112 50 0 50"></polygon>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="112" height="50" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group-3" transform="translate(17.000000, 19.000000)">
+                <g id="Group-2" stroke="#1C7CD6" stroke-width="3">
+                    <path d="M60.2113247,3.57735062 C61.1991828,1.60163443 62.8008872,1.60177435 63.7886753,3.57735062 L122.211325,120.422649 C123.199183,122.398366 122.199298,124 119.997306,124 L4.00269397,124 C1.79206713,124 0.800887174,122.398226 1.78867531,120.422649 L60.2113247,3.57735062 Z" id="Triangle" fill="#495057"></path>
+                    <path d="M60.3097039,5.47064879 C61.3379139,3.5132142 63.0013692,3.50635627 64.0331816,5.47064879 L75.7658421,27.8064716 L71,27.8064716 L66,27.8064716 L62,23 L55,27.8064716 L48.5770434,27.8064716 L60.3097039,5.47064879 Z" id="Triangle-Copy" fill="#FFFFFF"></path>
+                </g>
+                <g id="Group" transform="translate(6.000000, 60.000000)">
+                    <use id="Rectangle" stroke="#1C7CD6" mask="url(#mask-2)" stroke-width="6" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    <text id="steez" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="30" font-weight="bold" line-spacing="34" fill="#495057">
+                        <tspan x="21" y="38">steez</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
